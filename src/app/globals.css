@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+/*
+ * Design tokens from spec/foundations.md §1.
+ * Only the token layer lives here — components are not part of this scaffold.
+ */
+@theme {
+  --color-ink: #14202b;
+  --color-body: #3c4a57;
+  --color-muted: #7c8b99;
+  --color-line: #e2e8ed;
+  --color-canvas: #f6f8fa;
+  --color-surface: #ffffff;
+  --color-primary: #1b3a5c;
+  --color-primary-soft: #dce7f0;
+  --color-success: #1e7a4d;
+  --color-warning: #b4761a;
+  --color-danger: #b3352c;
+  --color-neutral: #8a98a5;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+
+  --shadow-1: 0 1px 2px rgb(20 32 43 / 0.06);
+  --shadow-2: 0 8px 24px rgb(20 32 43 / 0.12);
+}
