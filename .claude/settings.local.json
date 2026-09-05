@@ -1,10 +1,11 @@
 {
   "permissions": {
+    "allow": [
+      "Bash(npm run *\\)\rBash\\(supbase *\\)\rBash\\(git status\\)\rBash\\(git diff*\\)\rEdit\\(spec/**)",
+      "Bash(npm run *\\)\rBash\\(supabase *\\)\rBash\\(git status\\)\rBash\\(git diff*\\)\rEdit\\(spec/**)"
+    ],
     "ask": [
       "Bash(npm run *)"
-    ],
-    "allow": [
-      "Bash(npm run *\\)\rBash\\(supbase *\\)\rBash\\(git status\\)\rBash\\(git diff*\\)\rEdit\\(spec/**)"
     ]
   }
 }
